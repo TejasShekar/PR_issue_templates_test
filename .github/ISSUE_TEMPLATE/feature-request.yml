@@ -1,37 +1,12 @@
 name: "New Feature:"
 description: "Issue for new feature request"
-title: "[New Feature]: "
-# labels: ["feature"]
+labels: ["enhancement"]
 body:
   - type: textarea
     id: feature-description
     attributes:
       label: "Describe the feature:"
       description: A clear and concise description of this new feature.
-    validations:
-      required: true
-  - type: textarea
-    id: additional-context
-    attributes:
-      label: Additional Context (if any)
-      description: Please provide relevant context for implementing this new feature.
-    validations:
-      required: true
-  - type: dropdown
-    id: device-type
-    attributes:
-      label: Please select target device(s) for this new feature
-      multiple: true
-      options:
-        - Mobile
-        - Desktop
-        - Tablet
-    validations:
-      required: true
-  - type: textarea
-    id: screenshot
-    attributes:
-      label: Screenshot / Screen Recording
     validations:
       required: true
   - type: checkboxes
