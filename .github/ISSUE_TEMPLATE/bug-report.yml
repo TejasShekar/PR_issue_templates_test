@@ -1,4 +1,4 @@
-name: "Bug report:"
+name: "Bug report"
 description: "File a bug report"
 labels: ["bug"]
 body:
@@ -44,7 +44,8 @@ body:
     id: screenshot
     attributes:
       label: Screenshot / Screen Recording
-      description: If available, add relevant media files here that help explains this issue.
+      description: Add relevant media files here that help explains this issue.
+      placeholder: Drag and drop relevant media files into this field || Select the 'Link' option in the above markdown editor options.
     validations:
       required: true
   - type: checkboxes
