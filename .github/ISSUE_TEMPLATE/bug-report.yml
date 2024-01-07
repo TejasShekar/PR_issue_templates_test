@@ -1,6 +1,5 @@
 name: "Bug report:"
 description: "File a bug report"
-title: "[Bug report]: "
 labels: ["bug"]
 body:
   - type: textarea
@@ -41,17 +40,6 @@ body:
         - Microsoft Edge
     validations:
       required: true
-  - type: dropdown
-    id: device-type
-    attributes:
-      label: Please select your device type.
-      multiple: true
-      options:
-        - Mobile
-        - Desktop
-        - Tablet
-    validations:
-      required: true
   - type: textarea
     id: screenshot
     attributes:
@@ -59,12 +47,6 @@ body:
       description: If available, add relevant media files here that help explains this issue.
     validations:
       required: true
-  - type: textarea
-    id: additional-context
-    attributes:
-      label: Relevant log output
-      description: Add any other context about the problem here.
-
   - type: checkboxes
     id: terms
     attributes:
