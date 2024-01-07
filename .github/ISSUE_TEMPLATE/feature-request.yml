@@ -1,4 +1,4 @@
-name: "New Feature:"
+name: "New Feature"
 description: "Issue for new feature request"
 labels: ["enhancement"]
 body:
@@ -14,6 +14,6 @@ body:
     attributes:
       label: Issue Checklist
       options:
-        - label: I have checked the existing [issues](https://github.com/TeamShiksha/events-frontend/issues) and made sure no duplicate issue for this new feature exists.
+        - label: I have checked the existing [issues](https://github.com/TeamShiksha/events-frontend/issues) and made sure no duplicate issue exists for this new feature.
           required: true
         - label: I want to work on this issue.
