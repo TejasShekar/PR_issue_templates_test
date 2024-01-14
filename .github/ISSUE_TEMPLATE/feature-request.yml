@@ -1,6 +1,7 @@
 name: "New Feature"
 description: "Issue for new feature request"
 labels: ["enhancement"]
+projects: ["TejasShekar/PR_issue_templates_test"]
 body:
   - type: textarea
     id: feature-description
